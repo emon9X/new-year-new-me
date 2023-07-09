@@ -3,6 +3,7 @@
     /* border: 6px solid salmon; */
     padding: 0px;
 }
+
 /* banner section */
 .banner-div {
     width: 100%;
@@ -46,22 +47,42 @@
 }
 
 /*middle section*/
-.failure{
-   display: flex; 
-   align-items: center;
-   /* justify-content: space-around; */
+.failure {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
 }
-.myfailure{
+
+.myfailure {
     padding-left: 105px;
 }
-.image-me{
+
+.image-me {
     padding-left: 228px;
     padding-top: 50px;
     text-align: left;
 }
-.failpara{
+
+.failpara {
     padding: 24px 0px 24px 0px;
 }
-.faillist{
+
+.faillist {
     padding-left: 18px;
+    list-style: lower-alpha;
+}
+
+.lingraimg {
+    text-align: left;
+    width: 1140px;
+    height: 300px;
+    margin: auto;
+    /* border: 6px solid tomato; */
+    background-image: url("./images/watch.png") ,linear-gradient(to left, rgba(255,0,0,0), rgb(27, 75, 231));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+
 }
