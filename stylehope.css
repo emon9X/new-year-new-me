@@ -45,4 +45,23 @@
     margin-bottom: 24px;
 }
 
-/*  */
+/*middle section*/
+.failure{
+   display: flex; 
+   align-items: center;
+   /* justify-content: space-around; */
+}
+.myfailure{
+    padding-left: 105px;
+}
+.image-me{
+    padding-left: 228px;
+    padding-top: 50px;
+    text-align: left;
+}
+.failpara{
+    padding: 24px 0px 24px 0px;
+}
+.faillist{
+    padding-left: 18px;
+}
